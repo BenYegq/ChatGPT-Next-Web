@@ -58,8 +58,16 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   id: "Indonesia",
   fr: "Français",
   es: "Español",
+  it: "Italiano",
+  tr: "Türkçe",
+  de: "Deutsch",
   vi: "Tiếng Việt",
   ru: "Русский",
+  cs: "Čeština",
+  no: "Nynorsk",
+  ar: "العربية",
+  bn: "বাংলা",
+  sk: "Slovensky",
 };
 
 const LANG_KEY = "lang";
