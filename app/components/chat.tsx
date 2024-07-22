@@ -981,9 +981,9 @@ function _Chat() {
   ) {
     const copiedHello = Object.assign({}, BOT_HELLO);
     if (!accessStore.isAuthorized()) {
-      // copiedHello.content = Locale.Error.Unauthorized;
-      navigate(Path.Auth)
-      return;
+      copiedHello.content = Locale.Error.Unauthorized;
+      // navigate(Path.Auth)
+      // return;
     }
     context.push(copiedHello);
   }
