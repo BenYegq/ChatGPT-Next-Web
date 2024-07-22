@@ -983,6 +983,7 @@ function _Chat() {
     if (!accessStore.isAuthorized()) {
       // copiedHello.content = Locale.Error.Unauthorized;
       navigate(Path.Auth)
+      return;
     }
     context.push(copiedHello);
   }
